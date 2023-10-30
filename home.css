@@ -3,12 +3,12 @@ body
 {
     font-family: "Lucida Console", "Courier New", monospace;
     color: black; 
-    font-size: 25px;
-    max-width: auto;
-    max-height: auto;
+    font-size: 25px;   
+    margin: auto;
     height: auto;
     width: auto;
     background-color: lightgreen; /* delete if this doesn't look good */
+    background-image: linear-gradient(45deg, gray 0%, green 120%, red 20%, blue 75%)
 }
 
 article,aside, h1, h2, h3, p
@@ -107,6 +107,13 @@ article h1
     text-align: center;
 }
 
+article h2
+{
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
 article img
 {
     width: 100%;
@@ -151,12 +158,134 @@ footer p
 {
     clear: both;
     color: black;
-    text-align: left;
-    background-color: lightgreen;
+    text-align: center;
+    
     font-size: small;
     padding-left: 45px;
-    border-radius: 0 0 25px 25px;
+    background-image: linear-gradient(45deg, gray 0%, green 120%, red 20%, blue 75%)
+    
 }
+
+/* Styles for the form */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.8;
+}
+
+/* Image Gallery Styles */
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column 
+{
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.column img {
+width: 100%;
+margin-top: 8px;
+vertical-align: middle;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) 
+{
+.column 
+{
+flex: 50%;
+max-width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) 
+{
+.column 
+    {
+flex: 100%;
+max-width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
