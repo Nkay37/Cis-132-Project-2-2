@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the Wellness Page</title>
-     <link rel="stylesheet" href="home.css">
+    <title>Fitness and Wellness Lifestyle Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
 </head>
-    
+
 <body>
 
 <!-- Wellness Page -->
@@ -17,57 +18,81 @@
 </header>
 
 <nav id="nav_menu">
-    <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="workout.html">Workout</a></li>
-        <li> <a href="nutrition.html">Nutrition</a></li>
-        <li> <a href="wellness.html">Wellness</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li> <a href="contact.html">Contact</a></li>
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="workout.html">Workout</a></li>
+        <li class="nav-item"><a class="nav-link" href="nutrition.html">Nutrition</a></li>
+        <li class="nav-item"><a class="nav-link" href="wellness.html">Wellness</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
     </ul>
 </nav>
- 
-<main>
-<article>
-    <h2>"Your path to a Vibrant Life"</h2>
-    <br>
-    <img src="wellness1.jpg" alt="wellness">
-    <br>
-    <br>
-    <p>Wellness is a holistic state of being that encompasses not just the physical, but also the mental, emotional, and spiritual aspects of our lives. It involves consciously cultivating a balanced lifestyle that nurtures not only the body but also the mind and soul. This can be achieved through various practices such as mindfulness, meditation, regular exercise, a nutritious diet, and fostering strong social connections. By prioritizing wellness, individuals can enhance their resilience, reduce stress, and fortify their overall sense of well-being, enabling them to lead more fulfilling and purpose-driven lives.<br><br>
-    Furthermore, wellness isn't just the absence of illness but the active pursuit of a flourishing life. It involves recognizing and honoring the interconnectedness of various facets of our existence, understanding that when one aspect is neglected, it can impact the others. By fostering a proactive approach to wellness, individuals can harness their inner strengths, boost their immune systems, and improve their quality of life. Through a commitment to self-care and a mindful balance in all areas of life, individuals can achieve a state of wellness that fosters not just personal health but also a profound sense of joy and fulfillment.</p>
-</article>
 
-<aside>
-    <h2>Image and link's Refrencing Healtier Lifestyle</h2>
-    <br>
-    <img src="wellness2.jpg" alt="wellness3">
-    
-    <nav id="nav_menu2">
-    <ul>
+<main class="container mt-4">
+    <div id="accordion">
+        <!-- Card Group 1 -->
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        "Your path to a Vibrant Life"
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <img src="Images/wellness1.jpg" alt="Wellness1" class="img-fluid">
+                   <p>Wellness is a holistic state of being that encompasses not just the physical, but also the mental, emotional, and spiritual aspects of our lives. It involves consciously cultivating a balanced lifestyle that nurtures not only the body but also the mind and soul. This can be achieved through various practices such as mindfulness, meditation, regular exercise, a nutritious diet, and fostering strong social connections. By prioritizing wellness, individuals can enhance their resilience, reduce stress, and fortify their overall sense of well-being, enabling them to lead more fulfilling and purpose-driven lives.<br><br>
+    Furthermore, wellness isn't just the absence of illness but the active pursuit of a flourishing life. It involves recognizing and honoring the interconnectedness of various facets of our existence, understanding that when one aspect is neglected, it can impact the others. By fostering a proactive approach to wellness, individuals can harness their inner strengths, boost their immune systems, and improve their quality of life. Through a commitment to self-care and a mindful balance in all areas of life, individuals can achieve a state of wellness that fosters not just personal health but also a profound sense of joy and fulfillment.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Group 2 -->
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        "Image and link's Referencing Healthier Wellness Lifestyle"
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <img src="Images/wellness2.jpg" alt="Wellness2" class="img-fluid">
+                    <nav id="nav_menu2">
+                      <ul>
         <li> <a href="https://www.youtube.com/watch?v=2NR4_5dt7JA">The Eighty Dimensions of Wellness</a></li>
         
         <li> <a href="https://www.youtube.com/watch?v=rKQLBiylsn8">Ted Talk: Chole Hakim-Moore/ Stop Chasing Purpose and Focus On Wellness</a></li>
         
         <li> <a href="https://www.mckenziehealth.org/news-blog/2023/january/interesting-health-facts-that-can-save-your-life/">Intresting Health Facts that Can Save Your Life</a></li>
         
-        
-    </ul>
-</nav>
-</aside>
-</main>   
-    
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Card Group 3 and additional content as needed -->
+
+    </div>
+</main>
+
 <!-- Footer -->
-<footer>
-    <p>Last Edited on 10/29/2023
-    <br>
+<footer class="mt-4">
+    <p>Last Edited on 11/11/2023</p>
     <p>Email me if you have any Questions:
-    <a href="mailto:norman_kiliawi@elcamino.edu">kiliawinorman@gmail.com</a>
-    <br>
-    <br>
-    &copy; 2023 Fitness and Wellness Lifestyle Blog
+        <a href="mailto:kiliawinorman@gmail.com">kiliawinorman@gmail.com</a>
     </p>
+    <p>&copy; 2023 Fitness and Wellness Lifestyle Blog</p>
 </footer>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 
