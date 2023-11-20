@@ -25,74 +25,67 @@
         <li class="nav-item"><a class="nav-link" href="wellness.html">Wellness</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register For Class</a></li>
     </ul>
 </nav>
 
-<main class="container mt-4">
-    <div id="accordion">
-        <!-- Card Group 1 -->
-        <div class="card">
-            <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        "Do no hesitate to contact us"
-                    </button>
-                </h5>
-            </div>
+<main>
+<article>
+    <h2>Do not hesitake to contact us.</h2>
+    <br>
+    <img src="Images/about_stay_healthy.jpg" alt="stayingHealthy">
+    <br>
+<form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+	<label for="fname">First Name:</label><br>
+	<input type="text" id="fname" name="fname" required><br><br>
+	<label for="lname">Last Name:</label><br>
+	<input type="text" id="lname" name="lname" required><br><br>
+	<label for="email">Email:</label><br>
+	<input type="email" id="email" name="email" required><br><br>
+	<label for="message">Message:</label><br>
+	<textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+	<input type="submit" value="Submit">
+</form>
+</article>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                    <img src="Images/about_stay_healthy.jpg" alt="stayingHealthy" class = "img-fluid">
-                   <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
-                       <label for="fname">First Name:</label><br>
-	                   <input type="text" id="fname" name="fname" required><br><br>
-	                   <label for="lname">Last Name:</label><br>
-	                   <input type="text" id="lname" name="lname" required><br><br>
-	                   <label for="email">Email:</label><br>
-	                   <input type="email" id="email" name="email" required><br><br>
-	                   <label for="message">Message:</label><br>
-	                   <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-	                   <input type="submit" value="Submit">
-                    </form>
-            </div>
+<!-- Card Group 1 -->
+<aside class="col-md-4">
+    <h2>Image and Links Referencing Healthier Lifestyle</h2>
+
+    <div class="card">
+        <img src="Images/about_stay_healthy2.jfif" alt="about health2" class="card-img-top img-fluid">
+        <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <a href="https://purple.com/blog/30-weirdly-fascinating-health-body-facts" target="_blank">
+                        Fun health facts that can surprise you
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://youtu.be/dhpCdqOtuj0" target="_blank">
+                        Healthy facts for Kids
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.youtube.com/watch?v=gEHPTjMv4F0&t=29s" target="_blank">
+                        Video: Self Care for Teenagers
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.mghclaycenter.org/parenting-concerns/11-self-care-tips-for-teens-and-young-adults/"
+                        target="_blank">
+                        Self Care tips for Teenagers and Young Adults
+                    </a>
+                </li>
+            </ul>
         </div>
-
-        <!-- Card Group 2 -->
-        <div class="card">
-            <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        "Image and link's Refrencing Healtier Lifestyle"
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                    <img src="Images/about_stay_healthy2.jfif" alt="about health2" class="img-fluid">
-                    <nav id="nav_menu2">
-                        <ul>
-                           <li> <a href="https://purple.com/blog/30-weirdly-fascinating-health-body-facts">Fun health facts that can surprise you</a></li>
-        
-        <li> <a href="https://youtu.be/dhpCdqOtuj0">Healthy facts for Kids</a></li>
-        
-        <li> <a href="https://www.youtube.com/watch?v=gEHPTjMv4F0&t=29s">Video: Self Care for Tennagers</a></li>
-        
-        <li> <a href="https://www.mghclaycenter.org/parenting-concerns/11-self-care-tips-for-teens-and-young-adults/">Self Care tips for Tennagers and Young Adults </a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-
-        <!-- Add Card Group 3 and additional content as needed -->
-
     </div>
-    </div>
+</aside>
+
 </main>
-
 <!-- Footer -->
 <footer class="mt-4">
-    <p>Last Edited on 11/11/2023</p>
+    <p>Last Edited on 11/19/2023</p>
     <p>Email me if you have any Questions:
         <a href="mailto:kiliawinorman@gmail.com">kiliawinorman@gmail.com</a>
     </p>
